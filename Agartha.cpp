@@ -152,14 +152,16 @@ do{
       cout << "During the ritual, everyting was going smoothly, the death mages seemingly had all the necessary requires to revive the fallen holy mage, but something went wrong." << endl;
       cout << "They had underestimated how many souls they needed to complete the ritual, so the mage's soul was only halfway revived."<< endl;
       cout << "This caused the half complete soul to cry out in pain and start to massacare death mages." << endl;
-      cout << "The death mages tried to fight back with summons and curses but were quickly overwhelmed and slaughtered mercilessly" << endl;
+      cout << "The death mages tried to fight back with summons and curses but were quickly overwhelmed and slaughtered mercilessly." << endl;
       cout << "Afterwards, the priest's still imcomplete soul had at least formed some sort of a body for himself using the corpses of the death mages and with his new body tried casting a spell to see if he could still use magic." << endl;
-      cout << "However, when he casted the spell he felt a sharp pain course through his body and he began feel himself slipping away.." << endl;
+      cout << "However, when he casted the spell he felt a sharp pain course through his body and he began feel himself slipping away." << endl;
       cout << "A demon then appeared before him, laughing at the aching priest."<< endl;
       cout << "The priest enraged by demon's laughter tried to swipe at demon but the demon easily blocked the attack and kicked the priest into a wall." << endl;
       cout << "The demon then boastfully told the priest that he is now a possession of his master Satan and he is here to take the priest to hell to be endlessly tortured." << endl;
       cout << "The priest then begged the demon to find an alternative way to please his master." << endl;
-      cout << "The demon with a smile then teleported to" << endl;
+      cout << "The demon then teleported the priest to an underground cavern and explained to the priest that the only way to earn his freedom is to corrupt the magical core of Agartha." << endl;
+      cout << "The priest must now travel through Agartha to escape his fate as a plaything of the devil." << endl;
+      cout << "Use your blood efficiently to cast protective Holy spells to do well with character." << endl;
        }
     else if (option == 2){
       
