@@ -8,7 +8,7 @@ int option;
 int choice;
 bool gameOn = true;
 while (gameOn != false){
-cout << " ***********AGARTHA*************         " << endl;
+cout << " ***********AGARTHA************* " << endl;
 cout << "*******************************\n";
 cout << " 1 - Start the game.\n";
 cout << " 2 - Story.\n";
@@ -74,7 +74,7 @@ do{
       cout << "4. Go back to character selection" << endl;
       cin >> option;
       if(option == 1){
-    cout << "One of the top commanders and poltical figures of the holy kingdom that led a congregation of sisters known as the Holy Sisterhood that were an invaluable asset to the Holy Kingdom during thewars." << endl;
+    cout << "One of the top commanders and political figures of the holy kingdom that led a congregation of sisters known as the Holy Sisterhood that were an invaluable asset to the Holy Kingdom during thewars." << endl;
     cout << "During the late stages of the last war fought between the kingdoms, the nun received a vision."<< endl;
     cout << "In this vision, God showed the Nun a giant well hidden from the rest of the world"<< endl;
     cout << "God then told her to gather her followers and jump down the well to travel to a new land known as Agartha." << endl;
@@ -84,7 +84,7 @@ do{
     cout << "Remain faithful and loving towards God and share that love with others to well with this character." << endl;
       }
       else if(option == 2){
-      cout << "Magic Nullification: A passive ability which allows the Nun to disspell any magic spell as long as her faith is strong enough. Which also means she can't use magic herself." << endl; 
+      cout << "Magic Nullification: A passive ability which allows the Nun to dispel any magic spell as long as her faith is strong enough. Which also means she can't use magic herself." << endl; 
       cout << "Nun Robes: The Nun wears her black robes that do not offer any physical or magical protection but help her keep her faith stable. She wears light chain mail underneath her robes that help her repel some damage from light attack weapons." << endl;
       cout << "Faith-bound Abilities: The Nun does not use mana but instead relies on her faith in God to battle her foes. She must keep her faith meter above fifty-percent to continue using her faith abilities." << endl;
       cout << "Ever-present Doubt: The Nun has always had some doubts about whether she is following the right path in life and now with her faith being put to the test by God, she is feeling even more anxious. Throughout her journey her faith will decrease by five-percent everytime she loses a battle." << endl;
@@ -149,11 +149,11 @@ do{
       cout << "This high-priest was disgraced because he failed to keep his party of high ranking mages alive during a battle with the Holy Kingdom." << endl;
       cout << "This humiliating defeat was what caused the high-priest to stripped of his rank and executed." << endl;
       cout << "After hearing word of this execution, the death mages stole the priest's body and gathered the many materials needed for the ritual." << endl;
-      cout << "During the ritual, everyting was going smoothly, the death mages seemingly had all the necessary requires to revive the fallen holy mage, but something went wrong." << endl;
+      cout << "During the ritual, everything was going smoothly, the death mages seemingly had all the necessary requires to revive the fallen holy mage, but something went wrong." << endl;
       cout << "They had underestimated how many souls they needed to complete the ritual, so the mage's soul was only halfway revived."<< endl;
-      cout << "This caused the half complete soul to cry out in pain and start to massacare death mages." << endl;
+      cout << "This caused the half complete soul to cry out in pain and start to massacre death mages." << endl;
       cout << "The death mages tried to fight back with summons and curses but were quickly overwhelmed and slaughtered mercilessly." << endl;
-      cout << "Afterwards, the priest's still imcomplete soul had at least formed some sort of a body for himself using the corpses of the death mages and with his new body tried casting a spell to see if he could still use magic." << endl;
+      cout << "Afterwards, the priest's still incomplete soul had at least formed some sort of a body for himself using the corpses of the death mages and with his new body tried casting a spell to see if he could still use magic." << endl;
       cout << "However, when he casted the spell he felt a sharp pain course through his body and he began feel himself slipping away." << endl;
       cout << "A demon then appeared before him, laughing at the aching priest."<< endl;
       cout << "The priest enraged by demon's laughter tried to swipe at demon but the demon easily blocked the attack and kicked the priest into a wall." << endl;
