@@ -9,7 +9,6 @@ int choice;
 bool gameOn = true;
 while (gameOn != false){
 cout << " ***********AGARTHA************* " << endl;
-cout << "*******************************\n";
 cout << " 1 - Start the game.\n";
 cout << " 2 - Story.\n";
 cout << " 3 - Help.\n";
@@ -42,9 +41,9 @@ do{
       cout << "4. Go back to character selection" << endl;
       cin >> option;
       if (option == 1){
-        cout << "A demon that serves a mysterious plain of existence known as the void" << endl;
+      cout << "A demon that serves a mysterious plain of existence known as the void" << endl;
       cout << "The void is also a living entity that feeds off the souls of living beings and matter itself" << endl;
-      cout << "The void demands and sends it's servants to plung entire planets into it's realm." << endl;
+      cout << "The void demands and sends it's servants to plunge entire planets into it's realm." << endl;
       cout << "You play as one of these demons tasked by a ruler of the void, the Night Matron to corrupt the planet Thule. " << endl;
       cout << "However, this is the first time the demon has ever been tasked on such an important mission, so to test the demon's competency; the night matron has placed restrictions and obstacles that will push him to his limits. " << endl;
       cout << "Stick to the shadows and kill only those who the void deems necessary. This is how you will succeed with the character" << endl;
@@ -55,7 +54,7 @@ do{
     cout << "Shadow Body: The shadow demon's body is part material and immaterial, which allows the demon to perform acrobatic feats like climbing on walls and ceilings. Though, since his body is still part void any light source will hurt the demon." << endl;
     cout << "Tattered Cloak: A personal item that covers the demon and gives him the protection against light sources. Also, can be sacrificed to dodge fatal damage." << endl;
     cout << "Shadow Daggers and Short Sword: Void weapons that the demon can call upon if he needs to kill a target seen or unseen. These weapons can also absorb similar types of weapons to grow stronger. Base Damage for Daggers is 10 damage for each dagger and twenty-five damage for the sword." << endl;
-    cout << "Dagger in the Heart: The night matron has restricted the demon by plunging a dagger that hurts him when he angers the void by killing a living creature or entity that void has no interest in being killed. The shadow demon takes damage equal to half the total victum's health" << endl;
+    cout << "Dagger in the Heart: The night matron has restricted the demon by plunging a dagger that hurts him when he angers the void by killing a living creature or entity that void has no interest in being killed. The shadow demon takes damage equal to half the total victim's health" << endl;
       }
     else if(option == 3){
      cout << "Game Start!" << endl;
@@ -124,7 +123,7 @@ do{
       cout << "Arc-Mine Generator: While during the droid's travel phase, it can generator new mines to use in combat as long as the necessary materials are nearby. This process requires the droid know the correct materials to make each type of mine." << endl;
       cout << "Protective Shield: The recon droid also has a protective shielding that wraps around it's body. This shield protects the droid from all elemental attacks but only one element at a time, so the droid must use it's predictive AI to determine which element it needs to block." << endl;
       cout << "Steel External Body: The droid is equipped with an external body that houses a fragile internal body. This external body is made of steel and is very strong but greatly reduces the droid's speed. This external body will be lost if the droid's health reaches twenty-five percent." << endl;
-      cout << "Internal Body: The fragile internal body that is exposed when the droid loses it's external which causes it to take fifthy-percent extra damage. It gains an 100 percent attack speed bonus. The droid's arc-mine thrower also is replaced with a energy blade that deals 5 base damage." << endl;
+      cout << "Internal Body: The fragile internal body that is exposed when the droid loses it's external which causes it to take fifty-percent extra damage. It gains an 100 percent attack speed bonus. The droid's arc-mine thrower also is replaced with a energy blade that deals 5 base damage." << endl;
       }
     else if (option == 3){
       cout << "Game Start!" << endl;
@@ -164,7 +163,11 @@ do{
       cout << "Use your blood efficiently to cast protective Holy spells to do well with character." << endl;
        }
     else if (option == 2){
-      
+      cout << "Blood Magic: The demon explained to the priest that his new form has no way of using mana. Instead, he must now use his own blood as substitute for mana. This means to cast a spell, he must sacrifice a portion of his health equal to the cost of spell."<< endl;
+      cout << "Holy Magic Mastery: The priest has mastered the art of casting holy magic and knows every holy spell known to man. " << endl;
+      cout << "Everlasting Hunger: The priest's new body and half-complete soul hungers for the souls and flesh of living creatures. When the priest wins a battle, he absorbs the corpses of living creatures and gains health equal to their health. He also steals their soul to add to his soul well." << endl;
+      cout << "Soul-Well: The priest's soul is not complete, so he possesses a well of souls instead of a unified soul. The soul-well with evolve into a complete soul when the well contains one-thousand souls and when he completes his soul, he can use mana instead of blood. However, the priest starts with only two-hundred seventy souls in his soul-well. He also loses two soul every time he takes damage and if he loses all of his souls, he instantly dies." << endl;
+      cout << "Amorphous-Body: The priest's new body is a amalgamation of human flesh, so he has no natural form. The priest can instead transform his body and mimic the appearance of any creature that he absorbs. He also can use his body to get through small spaces." << endl;
       }
     else if (option == 3){
       cout << "Game Start!" << endl;
@@ -183,10 +186,28 @@ do{
     cout << "4. Go back to character selection" << endl;
       cin >> option;
     if (option == 1){
-      
+      cout << "A mage from the Wizard Kingdom that practiced an unorthodox form of magic known as worship magic." << endl;
+      cout << "This form of magic involved praying to the magical spell itself instead of using mana." << endl;
+      cout << "The Wizard Kingdom considered this form of magic ineffective and controversial for many reasons." << endl;
+      cout << "The magic-worshipping mage however believed that worship magic was the best way to cast spells and was more respectful to the spell." << endl;
+      cout << "This belief caused the magic-worshipping to be bullied and ostracized by his fellow mages which forced him to be homeless for most of his life" << endl;
+      cout << "Tired of feeling unwanted, he sought after the death mages to see if they would accept him." << endl;
+      cout << "The death mages tasked him with mission to prove himself." << endl;
+      cout << "His mission was to destroy the Wizards Kingdom's capital city and deliver the bodies of the mage to them." << endl;
+      cout << "The magic-worshiping mage accepted his quest and traveled to the Capital city." << endl;
+      cout << "He hid in the sewers beneath the main city and began casting a death spell that summons thousands of demons." << endl;
+      cout << "This casting takes days of non-stop praying to the spell to get it to cast." << endl;
+      cout << "On the surface, the Wizard Kingdom was celebrating it's triumph over the Holy Kingdom by executing the Archbishops of the Holy Kingdom." << endl;
+      cout << "The event was going well and just as the archbishops were about to be brutally executed by the Wizard Kingdom's council, a rumbling starting to occur and caught everyone off guard." << endl;
+      cout << "The spell was almost casted but the Magic-Worshipping Mage made one fatal error, at the last moment he tripped and cut his knee, which caused him to scream in pain." << endl;
+      cout << "This scream caused the spell to teleport the entire Wizard Kingdom capital to an alternate dimension and the Magic-Worshiping Mage to pass out." << endl;
+      cout << "He then woke up in an unfamiliar cave and heard booming voices thanking him for sending the mages to their realm." << endl;
+      cout << "However, they then told him that the reason why he woke up in a new cave was that the voices wanted him to finish off the rest of mages that live in Agartha." << endl;
+      cout << "The magic-worshipping mage then set off to murder more mages." << endl;
+      cout << "Use the power of worship magic to cast powerful spells to do well with this character." << endl;
       }
     else if (option == 2){
-      
+      cout << "" << endl;
       }
     else if (option == 3){
       cout << "Game Start!" << endl;
@@ -275,7 +296,7 @@ case 2:
   cout << "Welcome to the land of Agartha, a land hidden beneath the crust!" << endl; 
   cout << "A land of never-ending tunnels that can lead to wonderful riches or a fate worse than death." << endl;
   cout << "Not many people from the surface knew about or understand Agartha, so it's mysteries have remained secret for eons." << endl;
-  cout << "However, after many years of terrible wars between the Wizard Kingdom and the Holy Kingdom on the surface over the ethics of using magic. Both Kingdoms fell apart and many factions from the surface found and moved to Agartha to settle new lands not destoryed by war." << endl;
+  cout << "However, after many years of terrible wars between the Wizard Kingdom and the Holy Kingdom on the surface over the ethics of using magic. Both Kingdoms fell apart and many factions from the surface found and moved to Agartha to settle new lands not destroyed by wars." << endl;
   cout <<"Now you must journey through Agartha as a your chosen character from list of select characters that will forever change Thule and Agartha. Adventure Awaits!"<< endl;
 break;
 case 3:
@@ -312,6 +333,4 @@ startscreen();
 // ░░░░░░░▀▄▄░▒▒▒▒░░░░░░░░░░▒░░░█░
 // ░░░░░░░░░░▀▀▄▄░▒▒▒▒▒▒▒▒▒▒░░░░█░
 // ░░░░░░░░░░░░░░▀▄▄▄▄▄░░░░░░░░█░░
-
-  
 }
