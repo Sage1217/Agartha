@@ -187,7 +187,6 @@ do{
       cin >> option;
     if (option == 1){
       cout << "A mage from the Wizard Kingdom that practiced an unorthodox form of magic known as worship magic." << endl;
-      cout << "This form of magic involved praying to the magical spell itself instead of using mana." << endl;
       cout << "The Wizard Kingdom considered this form of magic ineffective and controversial for many reasons." << endl;
       cout << "The magic-worshipping mage however believed that worship magic was the best way to cast spells and was more respectful to the spell." << endl;
       cout << "This belief caused the magic-worshipping to be bullied and ostracized by his fellow mages which forced him to be homeless for most of his life" << endl;
@@ -207,7 +206,11 @@ do{
       cout << "Use the power of worship magic to cast powerful spells to do well with this character." << endl;
       }
     else if (option == 2){
-      cout << "" << endl;
+      cout << "Worship Magic: A form of magic that involves praying to spells instead of casting spells using mana. This means that the magic-worshipping priest must spend a certain number of turns praying to the spell he wishes to cast before the spell can go off." << endl;
+      cout << "Basic Magic Knowledge: The magic-worshipping mage has amnesia and has forgotten how cast most of his spells. Throughout, the game the magic-worshipping mage will relearn how to cast his more powerful spells. The magic-worshipping mage start with knowing four spells, which are Fireball, Restabilize-mind, Heal, and Damage-Resistance." << endl;
+      cout << "Unstable Mind: The magic-worshipping mages mind is unstable, so at certain points in the game he will have to face ghost encounters, which are encounters that magic-worshipping mage hallucinates. These encounters will always lead to battles. The only way to avoid these encounters is to use the spell 'Restabilize-mind' on the magic-worshipping mage." << endl;
+      cout << "Chaotic Magic Manipulation: The booming-voices infused the magic-worshipping mage with the ability to destabilize magic spells. This means the magic-worshipping mage can inflict a curse on mages and make the mage's spell have chaotic effects." << endl;
+      cout << "Wizard Robes: The magic-worshipping mage wears his signature red and purple wizard robes that connect him spiritually to magic. These robes cannot be taken off because the magic-worshipping forbids it." << endl;
       }
     else if (option == 3){
       cout << "Game Start!" << endl;
