@@ -73,12 +73,12 @@ do{
       cout << "4. Go back to character selection" << endl;
       cin >> option;
       if(option == 1){
-    cout << "One of the top commanders and political figures of the holy kingdom that led a congregation of sisters known as the Holy Sisterhood that were an invaluable asset to the Holy Kingdom during thewars." << endl;
-    cout << "During the late stages of the last war fought between the kingdoms, the nun received a vision."<< endl;
+    cout << "One of the top commanders and political figures of the holy kingdom that led a congregation of sisters known as the Holy Sisterhood that were an invaluable asset to the Holy Kingdom during the wars." << endl;
+    cout << "They served the Holy Kingdom during every war but during the late stages of the last war fought between the kingdoms, the nun received a vision."<< endl;
     cout << "In this vision, God showed the Nun a giant well hidden from the rest of the world"<< endl;
     cout << "God then told her to gather her followers and jump down the well to travel to a new land known as Agartha." << endl;
     cout << "After a long journey, her group found and all together jumped in the well." << endl;
-   cout << "The Nun wakes up on a dirt ground and  finds she is surrounded by the dead bodies of her followers." << endl;
+    cout << "The Nun wakes up on a dirt ground and  finds she is surrounded by the dead bodies of her followers." << endl;
     cout << "The Holy Spirit then appears before her and tells her that the others have been sent to heaven to be with God but before she can go to heaven, she must travel through Agartha and pass tests of faith to prove that she doesn't have any doubts in God's wisdom." << endl;
     cout << "Remain faithful and loving towards God and share that love with others to well with this character." << endl;
       }
@@ -202,15 +202,15 @@ do{
       cout << "This scream caused the spell to teleport the entire Wizard Kingdom capital to an alternate dimension and the Magic-Worshiping Mage to pass out." << endl;
       cout << "He then woke up in an unfamiliar cave and heard booming voices thanking him for sending the mages to their realm." << endl;
       cout << "However, they then told him that the reason why he woke up in a new cave was that the voices wanted him to finish off the rest of mages that live in Agartha." << endl;
-      cout << "The magic-worshipping mage then set off to murder more mages." << endl;
+      cout << "The magic-worshipping mage with crazed smile then set off to exterminate any surviving mages." << endl;
       cout << "Use the power of worship magic to cast powerful spells to do well with this character." << endl;
       }
     else if (option == 2){
       cout << "Worship Magic: A form of magic that involves praying to spells instead of casting spells using mana. This means that the magic-worshipping priest must spend a certain number of turns praying to the spell he wishes to cast before the spell can go off." << endl;
       cout << "Basic Magic Knowledge: The magic-worshipping mage has amnesia and has forgotten how cast most of his spells. Throughout, the game the magic-worshipping mage will relearn how to cast his more powerful spells. The magic-worshipping mage start with knowing four spells, which are Fireball, Restabilize-mind, Heal, and Damage-Resistance." << endl;
       cout << "Unstable Mind: The magic-worshipping mages mind is unstable, so at certain points in the game he will have to face ghost encounters, which are encounters that magic-worshipping mage hallucinates. These encounters will always lead to battles. The only way to avoid these encounters is to use the spell 'Restabilize-mind' on the magic-worshipping mage." << endl;
-      cout << "Chaotic Magic Manipulation: The booming-voices infused the magic-worshipping mage with the ability to destabilize magic spells. This means the magic-worshipping mage can inflict a curse on mages and make the mage's spell have chaotic effects." << endl;
-      cout << "Wizard Robes: The magic-worshipping mage wears his signature red and purple wizard robes that connect him spiritually to magic. These robes cannot be taken off because the magic-worshipping forbids it." << endl;
+      cout << "Chaotic Magic Manipulation: The booming-voices infused the magic-worshipping mage with the passive ability to destabilize magic spells. This means any mage who cast's a spell at the magic worshipping mage will have a ten-percent chance of having their spell transform into a chaotic version of the spell." << endl;
+      cout << "Wizard Robes: The magic-worshipping mage wears his signature red and purple wizard robes that connect him spiritually to magic. The robes also has a one-percent chance of causing the magic-worshipping mage to explode on his turn. This explosion will cause every enemy to die and put the magic-worshipping mage a one health. These robes cannot be taken off because the magic-worshipping mage forbids it." << endl;
       }
     else if (option == 3){
       cout << "Game Start!" << endl;
@@ -229,7 +229,33 @@ do{
     cout << "4. Go back to character selection" << endl;
       cin >> option;
     if (option == 1){
-      
+      cout << "A powerful Goblin who harnesses the power of lightning magic to destroy his enemies." << endl;  
+      cout << "The Goblin wasn't always powerful, initially he was banished from his homeland on the third layer to the second layer of Agartha." << endl;
+      cout << "This layer was one of most dangerous layers of Agartha as it held false gods and demonic giants known as Nephilim." << endl;   
+      cout << "He trained on the second for years but one day he spotted a group of three adventurers hunting Nephilim." << endl;  
+      cout << "The goblin took interest in the group and stalked them until they set up camp." << endl;
+      cout << "The goblin waited until the group fell asleep in their tents and slipped in their tent where stored their loot." << endl;
+      cout << "The goblin saw many valuable items from gold to fancy relics." << endl;
+      cout << "Something caught the goblin's eye the most, a strange looking gem that had lightning flowing through it." << endl;
+      cout << "As the Goblin marveled at the gem but failed notice that adventurers had woken up and heard him in their tent." << endl;
+      cout << "The leader of group opened the tent flap and saw the goblin taking their stuff." << endl;
+      cout << "He then immediately attacked the goblin, slashing and stabbing his sword all around the tent." << endl;
+      cout << "The goblin evaded his attacks with swift movements but he knew he needed to escape fast." << endl;
+      cout << "So he slipped in-between the legs of the leader but before he could escape the priestess buffed the brute and he hit the goblin hard with his hammer and the sent goblin flying." << endl;
+      cout << "The goblin landed hard on the ground but still was tightly grasping the gem." << endl;
+      cout << "The battered goblin then swallowed the gem because he thought if was going to die then at least they could get their gem back so easily." << endl;
+      cout << "The goblin then strangely felt his body getting stronger and a sharp electric current flow through his body." << endl;
+      cout << "The goblin was then charged by the brute and the leader with the priestess buffing both of them from the back and just both attackers unleashed their final attacks, lightning shot out of the goblin's hand which decapitated the brute." << endl;
+      cout << "The other two adventurers froze in shock at the sight of their companions headless torso fall to the ground." << endl;
+      cout << "The two adventurers then fled, not wanting to meet to the fate of their now dead companion." << endl;
+      cout << "The goblin also shocked at the feat he had done and looked at his hand." << endl;
+      cout << "There he saw that his hand had flickering sparks emitting from his fingers." << endl;
+      cout << "The goblin was in disarray as he had always been told by his elders that only humans can use magic because their species descended from the divine one and that the divine one created goblins in the image of humans but not himself." << endl;
+      cout << "A lightbulb then went off in the goblins head and with great big smile realized that he must be some type of chosen one and that gem he swallowed with a present from the divine one." << endl;
+      cout << "He then vowed to use this power to help win back his honor and help the goblin kingdom take revenge on the humans that forced them to live underground." << endl;
+      cout << "The goblin then trained in art of lightning magic until he felt confident enough to return to his kingdom." << endl;
+      cout << "The goblin with his new powers and confidence now returns to his homeland to reclaim his honor." << endl;
+      cout << "Harness the power of lightning magic and destroy your foes with this character." << endl;
       }
     else if (option == 2){
       
@@ -298,9 +324,10 @@ break;
 case 2:
   cout << "Welcome to the land of Agartha, a land hidden beneath the crust!" << endl; 
   cout << "A land of never-ending tunnels that can lead to wonderful riches or a fate worse than death." << endl;
-  cout << "Not many people from the surface knew about or understand Agartha, so it's mysteries have remained secret for eons." << endl;
+  cout << "For eons Agartha had been an unknown land and was home to many creatures thought to have disappeared or were just myths." << endl;
+  cout << "The denizens of Thule would have never dreamed that Agartha and it's creatures existed." << endl;
   cout << "However, after many years of terrible wars between the Wizard Kingdom and the Holy Kingdom on the surface over the ethics of using magic. Both Kingdoms fell apart and many factions from the surface found and moved to Agartha to settle new lands not destroyed by wars." << endl;
-  cout <<"Now you must journey through Agartha as a your chosen character from list of select characters that will forever change Thule and Agartha. Adventure Awaits!"<< endl;
+  cout << "Now you must journey through Agartha as a your chosen character that will forever change Thule and Agartha. Adventure Awaits!"<< endl;
 break;
 case 3:
 cout << "Ahahah, you really think I will help you?\n";
