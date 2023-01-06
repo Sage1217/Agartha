@@ -229,36 +229,34 @@ do{
     cout << "4. Go back to character selection" << endl;
       cin >> option;
     if (option == 1){
-      cout << "A powerful Goblin who harnesses the power of lightning magic to destroy his enemies." << endl;  
-      cout << "The Goblin wasn't always powerful, initially he was banished from his homeland on the third layer to the second layer of Agartha." << endl;
-      cout << "This layer was one of most dangerous layers of Agartha as it held false gods and demonic giants known as Nephilim." << endl;   
-      cout << "He trained on the second for years but one day he spotted a group of three adventurers hunting Nephilim." << endl;  
-      cout << "The goblin took interest in the group and stalked them until they set up camp." << endl;
-      cout << "The goblin waited until the group fell asleep in their tents and slipped in their tent where stored their loot." << endl;
-      cout << "The goblin saw many valuable items from gold to fancy relics." << endl;
-      cout << "Something caught the goblin's eye the most, a strange looking gem that had lightning flowing through it." << endl;
-      cout << "As the Goblin marveled at the gem but failed notice that adventurers had woken up and heard him in their tent." << endl;
-      cout << "The leader of group opened the tent flap and saw the goblin taking their stuff." << endl;
-      cout << "He then immediately attacked the goblin, slashing and stabbing his sword all around the tent." << endl;
-      cout << "The goblin evaded his attacks with swift movements but he knew he needed to escape fast." << endl;
-      cout << "So he slipped in-between the legs of the leader but before he could escape the priestess buffed the brute and he hit the goblin hard with his hammer and the sent goblin flying." << endl;
-      cout << "The goblin landed hard on the ground but still was tightly grasping the gem." << endl;
-      cout << "The battered goblin then swallowed the gem because he thought if was going to die then at least they could get their gem back so easily." << endl;
-      cout << "The goblin then strangely felt his body getting stronger and a sharp electric current flow through his body." << endl;
-      cout << "The goblin was then charged by the brute and the leader with the priestess buffing both of them from the back and just both attackers unleashed their final attacks, lightning shot out of the goblin's hand which decapitated the brute." << endl;
-      cout << "The other two adventurers froze in shock at the sight of their companions headless torso fall to the ground." << endl;
-      cout << "The two adventurers then fled, not wanting to meet to the fate of their now dead companion." << endl;
-      cout << "The goblin also shocked at the feat he had done and looked at his hand." << endl;
-      cout << "There he saw that his hand had flickering sparks emitting from his fingers." << endl;
-      cout << "The goblin was in disarray as he had always been told by his elders that only humans can use magic because their species descended from the divine one and that the divine one created goblins in the image of humans but not himself." << endl;
-      cout << "A lightbulb then went off in the goblins head and with great big smile realized that he must be some type of chosen one and that gem he swallowed with a present from the divine one." << endl;
-      cout << "He then vowed to use this power to help win back his honor and help the goblin kingdom take revenge on the humans that forced them to live underground." << endl;
-      cout << "The goblin then trained in art of lightning magic until he felt confident enough to return to his kingdom." << endl;
-      cout << "The goblin with his new powers and confidence now returns to his homeland to reclaim his honor." << endl;
+      cout << "A goblin who is banished from his homeland the 3rd layer of Agartha to the 2nd layer of Agartha." << endl;
+      cout << "On this layer the goblin had to fend for himself against the Nephilim and false gods that lived on the layer." << endl;
+      cout << "One day he saw a campsite set up by adventurers." << endl;
+      cout << "He snuck up on the campsite and went into one of tents." << endl;
+      cout << "In the tent, he many valuable looking items and gem stones." << endl;
+      cout << "He toke one of the stones and marveled at the stone for a while." << endl;
+      cout << "The stone was green and had lightning flowing through the gem which caused it to vibrate slightly." << endl;
+      cout << "Distracted by the gem, he failed to notice that the adventurers had woke up and heard him rummaging through their stuff." << endl;
+      cout << "They opened up the tent and saw the goblin looking the gem, the brute of group then swung his mighty hammer and flung the goblin through the tent." << endl;
+      cout << "The goblin crashed through the tent and far into the air landing a few feet away from the campsite with a crash." << endl;
+      cout << "The goblin was severely hurt but could still move one of arms that held the stone in it." << endl;
+      cout << "He then knew he was most likely going to die and decided to swallow the gem, so that he could at least die knowing they weren't getting gem back so easily." << endl;
+      cout << "However, unexpectedly the goblin began to feel his pain dull and his body gaining strength, he even stood up despite breaking his legs. " << endl;
+      cout << "He then saw that three adventurers had found him and the swordsman and brute charged him with the holy mage giving them blessings." << endl;
+      cout << "Scared of dying he crossed his arms to cover his face but then just the brute was about to swing at him, lightning shot out of goblin's hand which decapitated the brute." << endl;
+      cout << "The brutes limp body fell on top of the swordsman caused him to also fall to the ground." << endl;
+      cout << "The holy mage then scared for her live, ran off back to the campsite with the swordsman getting up and limping behind her." << endl; 
+      cout << "The goblin confused by what happened looked at his hand and the dead adventurer that lay before him." << endl;
+      cout << "He then realized that his new power must have come from the gem that he swallowed" << endl;
+      cout << "The goblin was still confused because he had been told by his elders that Goblins cannot use magic." << endl;
+      cout << "He realized that he must be special somehow and that he must have been chosen by the Holy Trio to become their champion." << endl;
+      cout << "This new belief gave the goblins something he needed confidence and with this confidence he sets out to return to his homeland." << endl;
       cout << "Harness the power of lightning magic and destroy your foes with this character." << endl;
       }
     else if (option == 2){
-      
+      cout << "Lightning Magic Amateur: The goblin has now become lightning mage but he can only slightly control his magical abilities. This means he only knows one spell called unstable lightning bolt. This spell deals the same amount of damage as normal lightning bolt spell but has fifty-percent chance of failing." << endl;
+      cout << "Wizard Robes: The goblin before he began his journey went to the campsite and intimidated the two remaining adventurers into give him some wizard robes. The robes were not his size so he had the holy mage bless the robe to make the fit him. The robes give him a bonus to his magical abilities. " << endl;
+      cout << "Quick Feet: The goblin has a thirty-five percent chance to automatically dodge his opponent's attacks thanks to his training." << endl;
       }
     else if (option == 3){
       cout << "Game Start!" << endl;
