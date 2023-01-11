@@ -4,3 +4,9 @@ Agartha is C++ text based adventure game set in the underground world known as A
 Download my games files off of Github. Unzip the files using a program like 7zip or Winrar and make a folder on your desktop to store the files If you want to play my game, run the Agartha.cpp through a program like command prompt or a similar program. You can also run it through an IDE if you want to make changes to the code. 
 # Contributor Expectation
 I expect anyone who want help contribute to this project to contact me before they push their updates to this Github repo. I want to make sure the updates fit my vision of my game and will provide the player will fun and fullfilling experience. You can contact me through my business email jluke95@yahoo.com or you can send me a friend request or DM me on discord, my username is sage#3262. I also expect people who want to contribute to my code know how some knowledge of C++ and Github. One more expectation is I want contributor to use a proper IDE and not an online IDE. Online IDEs are very limited in features and make collaberation harder for the other people who to help, so please use something like Visual Studio Code if you want to help.   
+# Features Needed to Added 
+- Battle System
+- Experience and Leveling System
+- Traveling Events 
+- Items
+- Magic Systems
