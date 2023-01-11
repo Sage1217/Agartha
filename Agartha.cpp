@@ -46,7 +46,7 @@ do{
       cout << "The void demands and sends it's servants to plunge entire planets into it's realm." << endl;
       cout << "You play as one of these demons tasked by a ruler of the void, the Night Matron to corrupt the planet Thule. " << endl;
       cout << "However, this is the first time the demon has ever been tasked on such an important mission, so to test the demon's competency; the night matron has placed restrictions and obstacles that will push him to his limits. " << endl;
-      cout << "Stick to the shadows and kill only those who the void deems necessary. This is how you will succeed with the character" << endl;
+      cout << "Stick to the shadows and kill only those who the void deems necessary. This is how you will succeed with the character!" << endl;
       }
     else if(option == 2){
     cout << "Abilities and Equipment:" << endl;
@@ -73,14 +73,14 @@ do{
       cout << "4. Go back to character selection" << endl;
       cin >> option;
       if(option == 1){
-    cout << "One of the top commanders and political figures of the holy kingdom that led a congregation of sisters known as the Holy Sisterhood that were an invaluable asset to the Holy Kingdom during the wars." << endl;
-    cout << "They served the Holy Kingdom during every war but during the late stages of the last war fought between the kingdoms, the nun received a vision."<< endl;
-    cout << "In this vision, God showed the Nun a giant well hidden from the rest of the world"<< endl;
-    cout << "God then told her to gather her followers and jump down the well to travel to a new land known as Agartha." << endl;
-    cout << "After a long journey, her group found and all together jumped in the well." << endl;
-    cout << "The Nun wakes up on a dirt ground and  finds she is surrounded by the dead bodies of her followers." << endl;
-    cout << "The Holy Spirit then appears before her and tells her that the others have been sent to heaven to be with God but before she can go to heaven, she must travel through Agartha and pass tests of faith to prove that she doesn't have any doubts in God's wisdom." << endl;
-    cout << "Remain faithful and loving towards God and share that love with others to well with this character." << endl;
+      cout << "One of the top commanders and political figures of the holy kingdom that led a congregation of sisters known as the Holy Sisterhood that were an invaluable asset to the Holy Kingdom during the wars." << endl;
+      cout << "They served the Holy Kingdom during every war but during the late stages of the last war fought between the kingdoms, the nun received a vision."<< endl;
+      cout << "In this vision, God showed the Nun a giant well hidden from the rest of the world"<< endl;
+      cout << "God then told her to gather her followers and jump down the well to travel to a new land known as Agartha." << endl;
+      cout << "After a long journey, her group found and all together jumped in the well." << endl;
+      cout << "The Nun wakes up on a dirt ground and  finds she is surrounded by the dead bodies of her followers." << endl;
+      cout << "The Holy Spirit then appears before her and tells her that the others have been sent to heaven to be with God but before she can go to heaven, she must travel through Agartha and pass tests of faith to prove that she doesn't have any doubts in God's wisdom." << endl;
+      cout << "Remain faithful and loving towards God and share that love with others to well with this character!" << endl;
       }
       else if(option == 2){
       cout << "Magic Nullification: A passive ability which allows the Nun to dispel any magic spell as long as her faith is strong enough. Which also means she can't use magic herself." << endl; 
@@ -115,7 +115,7 @@ do{
       cout << "So the USF council came up with a plan to sent one of their recon droid's equipped with tough armor and advanced gadgets to the planet's surface via drop pod." << endl;
       cout << "The only problem is that the drop pod containing the recon droid didn't land on the surface of the planet but deep underground in Agartha." << endl;
       cout << "The droid tried to contact an USF officer but there was no connection, so now the droid must travel through Agartha and get back to the surface while also scanning and overcoming obstacles" << endl;
-      cout << "Defend yourself with the reconnaissance droid gadgets and scan things to gain useful information to do well with this character." << endl;
+      cout << "Defend yourself with the reconnaissance droid gadgets and scan things to gain useful information to do well with this character!" << endl;
       }
     else if (option == 2){
       cout << "Head Scanner: the reconnaissance droid's head is equipped with a high tech scanner that gives the droid the ability to adapt to the new environment. Scanning enemies during combat leaves the droid vulnerable to attack." << endl;
@@ -160,7 +160,7 @@ do{
       cout << "The priest then begged the demon to find an alternative way to please his master." << endl;
       cout << "The demon then teleported the priest to an underground cavern and explained to the priest that the only way to earn his freedom is to corrupt the magical core of Agartha." << endl;
       cout << "The priest must now travel through Agartha to escape his fate as a plaything of the devil." << endl;
-      cout << "Use your blood efficiently to cast protective Holy spells to do well with character." << endl;
+      cout << "Use your blood efficiently to cast protective Holy spells to do well with character!" << endl;
        }
     else if (option == 2){
       cout << "Blood Magic: The demon explained to the priest that his new form has no way of using mana. Instead, he must now use his own blood as substitute for mana. This means to cast a spell, he must sacrifice a portion of his health equal to the cost of spell."<< endl;
@@ -203,7 +203,7 @@ do{
       cout << "He then woke up in an unfamiliar cave and heard booming voices thanking him for sending the mages to their realm." << endl;
       cout << "However, they then told him that the reason why he woke up in a new cave was that the voices wanted him to finish off the rest of mages that live in Agartha." << endl;
       cout << "The magic-worshipping mage with crazed smile then set off to exterminate any surviving mages." << endl;
-      cout << "Use the power of worship magic to cast powerful spells to do well with this character." << endl;
+      cout << "Use the power of worship magic to cast powerful spells to do well with this character!" << endl;
       }
     else if (option == 2){
       cout << "Worship Magic: A form of magic that involves praying to spells instead of casting spells using mana. This means that the magic-worshipping priest must spend a certain number of turns praying to the spell he wishes to cast before the spell can go off." << endl;
@@ -251,7 +251,7 @@ do{
       cout << "The goblin was still confused because he had been told by his elders that Goblins cannot use magic." << endl;
       cout << "He realized that he must be special somehow and that he must have been chosen by the Holy Trio to become their champion." << endl;
       cout << "This new belief gave the goblins something he needed confidence and with this confidence he sets out to return to his homeland." << endl;
-      cout << "Harness the power of lightning magic and destroy your foes with this character." << endl;
+      cout << "Harness the power of lightning magic and destroy your foes with this character!" << endl;
       }
     else if (option == 2){
       cout << "Lightning Magic Amateur: The goblin has now become lightning mage but he can only slightly control his magical abilities. This means he only knows one spell called unstable lightning bolt. This spell deals the same amount of damage as normal lightning bolt spell but has fifty-percent chance of failing." << endl;
@@ -274,10 +274,40 @@ do{
     cout << "4. Go back to character selection" << endl;
       cin >> option;
     if (option == 1){
-      
+     cout << "An ex-paladin that fought against the Wizard Kingdom in the final war and now lives in the first layer of Agartha." << endl;
+     cout << "He was teleported to first layer after fighting endless hordes and horrifying magical beasts with other mages and paladins." << endl;
+     cout << "In this impromptu alliance, they promised each other that if they survived that would end this feud between the two kingdoms and join as one." << endl;
+     cout << "The paladins killed many of the magical beasts while the mages began to cast a giant spell that would teleport everyone out of that hell and after they succeeded they made their alliance official." << endl;
+     cout << "The first thing the alliance did was build a town and discover the creatures that inhabited this new land." << endl;
+     cout << "They discovered lost creatures known as dinosaurs lived here, which had thought to be driven to extinct during the era of the dragons." << endl;
+     cout << "The alliance then formed a treaty that they will work together with each other to hunt and find new interesting things and form a society where they abandon both kingdoms traditions to focus on helping themselves." << endl;
+     cout << "The survivalist hated the treaty though because he still wanted to uphold the traditions of the holy kingdom. " << endl;
+     cout << "It seemed like he was in the minority of opinion and the alliance banished him to fend for himself." << endl;
+     cout << "After his banishment, he sent up his own encampment and stalked the adventurer alliance from time to time." << endl;
+     cout << "He watched with disgust his remaining brothers and sisters learn magic and host prayer sessions with mages." << endl;
+     cout << "He vowed to never reform his ways and become the last true follower of Jesus Christ." << endl;
+     cout << "He also stole a bow and some arrows from the adventurer settlement to help him survive and to get some revenge on them." << endl;
+     cout << "This bow was a great asset to him and he became an skilled archer after some time of practicing." << endl;
+     cout << "One day while hunt some raptors, he saw something fall from the sky and crash into the ground." << endl;
+     cout << "He curiously ran to the crash site because he knew the loud crash would attract the attention of the adventurer guild." << endl;
+     cout << "When he got to the crash site, he found a strange looking pod that was the shape of dinosaur eggs he would steal." << endl;
+     cout << "The pod then suddenly open and with his bow drawn he approached the pod." << endl;
+     cout << "He then saw the body of a women who wore strange armor and was covered in blood." << endl;
+     cout << "He assumed the women was dead and took her body out of the pod." << endl;
+     cout << "A device fell from the pod that looked like a glove of some kind which caused the survivalist to jump and shoot the glove with an arrow." << endl;
+     cout << "The glove then produced a hologram out of a man in a uniform asking someone named Caroline and demanding her to answer him." << endl;
+     cout << "The survivalist then bend down and looked at the hologram with confusion." << endl;
+     cout << "The hologram of man then saw the survivalist and the dead body of Caroline and thought that the man killed Caroline." << endl;
+     cout << "He then said a phase which caused the glove to attach itself to the survivalists arm and shock him nearly to death. " << endl;
+     cout << "The survivalist screamed in pain and fell to his knee, the hologram then appeared on the survivalist's arm and told him to listen to him closely." << endl;
+     cout << "The hologram told the survivalist that dead women's mission was to find a robot that belonged to the UEF and that his duty is carry on that mission for the MC (Mars Confederacy) or he will be shocked to death." << endl;
+     cout << "The survivalist with no other choice goes off to find this robot." << endl;
+     cout << "Use stealth, trickery, the survivalist's weapons and his gadgets to survive this perilous journey!" << endl;
       }
     else if (option == 2){
-      
+     cout << "Mary: The survivalist's trusty bow named after the mother of christ. The bow does twenty base damage but if the survivalist gets a head shot, the target dies instantly as long as the target is not a giant enemy. " << endl;
+     cout << "Survival Skills: The survivalist uses his skills learned from living in the jungle to  " << endl;
+     cout << "" << endl;
       }
     else if (option == 3){
       cout << "Game Start!" << endl;
