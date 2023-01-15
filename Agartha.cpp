@@ -372,9 +372,63 @@ break;
  }
    }
        }
+
+void display_main_menu() {
+    cout << "\n\n***********AGARTHA************* " << endl;
+    cout << " 1 - Start the game.\n";
+    cout << " 2 - Story.\n";
+    cout << " 3 - Help.\n";
+    cout << " 4 - Exit.\n";
+    cout << " Enter your choice and press return: ";
+}
+
+// check if number or string
+bool check_number(string str) {
+   for (int i = 0; i < str.length(); i++)
+   if (isdigit(str[i]) == false)
+      return false;
+      return true;
+}
+
+void main_menu() {
+    string selection;
+    int choice;
+    
+    do {
+        try {
+            choice = 0;
+            display_main_menu();
+            cin >> selection;
+            if (!check_number(selection)) {
+                throw "\nInput must be numeric.";
+            }
+
+            choice = stoi(selection);
+
+            if (choice < 1 || choice > 4) {
+                throw "\nInvalid Choice! Choose something between 1-4.";
+            }
+        } catch (char const* error) {
+            cout << error;
+        } 
+        if (choice == 1) {
+            cout << "\nYou chose Start the Game!";
+        } else if (choice == 2) {
+            cout << "\nYou chose Story!";
+        } else if (choice == 3) {
+            cout << "\nYou chose Help!";
+        } 
+    } while (choice != 4);
+
+    cout << "\nSee ya!\n";
+}
+
 int main() {
-startscreen();
-//Caroline is SUS 
+// startscreen();
+main_menu();
+
+
+//Caroline is SUS
 // ░░░░░░░░░░░░░░░▄▀▄░░░░░░░░░░░░░░░
 // ░░░░░▄▄▄▄▀▀▀▀▀▀▀▀▄▄▄▄▄▄░░░░░░░
 // ░░░░░█░░░░▒▒▒▒▒▒▒▒▒▒▒▒░░▀▀▄░░░░
