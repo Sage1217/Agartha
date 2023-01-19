@@ -43,7 +43,7 @@ int choice;
       getline(cin, selection);
       if (!check_number(selection))
       {
-        throw "\nInput must be numeric.";
+        throw "\nInvalid Choice.";
       }
 
       choice = stoi(selection);
@@ -408,7 +408,7 @@ void main_menu()
       getline(cin, selection);
       if (!check_number(selection))
       {
-        throw "\nInput must be numeric.";
+        throw "\nInvalid Choice! Choose something between 1-4.";
       }
 
       choice = stoi(selection);
