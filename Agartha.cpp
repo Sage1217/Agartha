@@ -40,7 +40,7 @@ int choice;
     {
       choice = 0;
       display_option_menu();
-      cin >> selection;
+      getline(cin, selection);
       if (!check_number(selection))
       {
         throw "\nInput must be numeric.";
@@ -405,7 +405,7 @@ void main_menu()
     {
       choice = 0;
       display_main_menu();
-      cin >> selection;
+      getline(cin, selection);
       if (!check_number(selection))
       {
         throw "\nInput must be numeric.";
